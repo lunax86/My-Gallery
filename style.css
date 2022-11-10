@@ -1,0 +1,41 @@
+
+body {
+    background-color: #FBE0D8;
+    font-family: Verdana, sans-serif;
+    color: #283644;
+}
+
+h1 {
+    text-align: center;
+}
+
+#css-override .nGY2GThumbnail {
+    border-color: transparent;
+    background: none;
+}
+
+#css-override .nGY2Navigationbar {
+    display: flex !important;
+    justify-content: center;
+}
+
+#css-override .nGY2NavigationbarItem {
+    background-color: #283644;
+    color: #FBE0D8;
+    border-radius: 0;
+    padding: 0;
+}
+
+#css-override .nGY2NavigationbarItem > div {
+    padding: 10px;
+    margin: 0;
+    color: inherit;
+}
+
+#css-override .nGY2NavigationbarItem > div:first-child {
+    padding-right: 0;
+}
+
+#css-override .nGY2NavigationbarItem > div:hover {
+    color: inherit;
+}
